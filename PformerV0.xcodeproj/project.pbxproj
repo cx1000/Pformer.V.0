@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0295CD9F1D7D37C100935C09 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295CD9C1D7D37C100935C09 /* CGFloat+Extensions.swift */; };
+		0295CDA01D7D37C100935C09 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295CD9D1D7D37C100935C09 /* CGPoint+Extensions.swift */; };
+		0295CDA11D7D37C100935C09 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0295CD9E1D7D37C100935C09 /* CGVector+Extensions.swift */; };
 		02A70C591D7CD8D90065B6BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A70C581D7CD8D90065B6BD /* AppDelegate.swift */; };
 		02A70C5B1D7CD8D90065B6BD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 02A70C5A1D7CD8D90065B6BD /* GameScene.sks */; };
 		02A70C5D1D7CD8D90065B6BD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A70C5C1D7CD8D90065B6BD /* GameScene.swift */; };
@@ -22,12 +25,15 @@
 		02A70C7E1D7CDE260065B6BD /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A70C761D7CDE260065B6BD /* tileSet@2x.png */; };
 		02A70C801D7CDE260065B6BD /* hurt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 02A70C781D7CDE260065B6BD /* hurt.wav */; };
 		02A70C811D7CDE260065B6BD /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 02A70C791D7CDE260065B6BD /* jump.wav */; };
-		02A70C8C1D7CFD920065B6BD /* SKTUtils in Resources */ = {isa = PBXBuildFile; fileRef = 02A70C8B1D7CFD920065B6BD /* SKTUtils */; };
 		02A70C901D7CFED60065B6BD /* JSTileMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A70C8E1D7CFED60065B6BD /* JSTileMap.m */; };
 		02A70C911D7CFED60065B6BD /* LFCGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A70C8F1D7CFED60065B6BD /* LFCGzipUtility.m */; };
+		02A70C931D7D0EA10065B6BD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A70C921D7D0EA10065B6BD /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0295CD9C1D7D37C100935C09 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGFloat+Extensions.swift"; path = "SKTUtils/CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		0295CD9D1D7D37C100935C09 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extensions.swift"; path = "SKTUtils/CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		0295CD9E1D7D37C100935C09 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGVector+Extensions.swift"; path = "SKTUtils/CGVector+Extensions.swift"; sourceTree = "<group>"; };
 		02A70C551D7CD8D90065B6BD /* PformerV0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PformerV0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A70C581D7CD8D90065B6BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02A70C5A1D7CD8D90065B6BD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -47,10 +53,10 @@
 		02A70C761D7CDE260065B6BD /* tileSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileSet@2x.png"; sourceTree = "<group>"; };
 		02A70C781D7CDE260065B6BD /* hurt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hurt.wav; sourceTree = "<group>"; };
 		02A70C791D7CDE260065B6BD /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
-		02A70C8B1D7CFD920065B6BD /* SKTUtils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SKTUtils; sourceTree = "<group>"; };
 		02A70C8D1D7CFED60065B6BD /* PformerV0-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PformerV0-Bridging-Header.h"; sourceTree = "<group>"; };
 		02A70C8E1D7CFED60065B6BD /* JSTileMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTileMap.m; sourceTree = "<group>"; };
 		02A70C8F1D7CFED60065B6BD /* LFCGzipUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCGzipUtility.m; sourceTree = "<group>"; };
+		02A70C921D7D0EA10065B6BD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A70C931D7D0EA10065B6BD /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +74,7 @@
 		02A70C4C1D7CD8D90065B6BD = {
 			isa = PBXGroup;
 			children = (
+				02A70C921D7D0EA10065B6BD /* libz.tbd */,
 				02A70C571D7CD8D90065B6BD /* PformerV0 */,
 				02A70C561D7CD8D90065B6BD /* Products */,
 			);
@@ -83,19 +91,21 @@
 		02A70C571D7CD8D90065B6BD /* PformerV0 */ = {
 			isa = PBXGroup;
 			children = (
+				0295CD9C1D7D37C100935C09 /* CGFloat+Extensions.swift */,
+				0295CD9D1D7D37C100935C09 /* CGPoint+Extensions.swift */,
+				0295CD9E1D7D37C100935C09 /* CGVector+Extensions.swift */,
 				02A70C8D1D7CFED60065B6BD /* PformerV0-Bridging-Header.h */,
-				02A70C8B1D7CFD920065B6BD /* SKTUtils */,
 				02A70C8A1D7CE3E80065B6BD /* JSTileMap */,
 				02A70C841D7CE04F0065B6BD /* Resources */,
-				02A70C581D7CD8D90065B6BD /* AppDelegate.swift */,
+				02A70C6E1D7CDCD00065B6BD /* Player.swift */,
 				02A70C5A1D7CD8D90065B6BD /* GameScene.sks */,
 				02A70C5C1D7CD8D90065B6BD /* GameScene.swift */,
 				02A70C5E1D7CD8D90065B6BD /* GameViewController.swift */,
 				02A70C601D7CD8D90065B6BD /* Main.storyboard */,
 				02A70C631D7CD8D90065B6BD /* Assets.xcassets */,
+				02A70C581D7CD8D90065B6BD /* AppDelegate.swift */,
 				02A70C651D7CD8D90065B6BD /* LaunchScreen.storyboard */,
 				02A70C681D7CD8D90065B6BD /* Info.plist */,
-				02A70C6E1D7CDCD00065B6BD /* Player.swift */,
 			);
 			path = PformerV0;
 			sourceTree = "<group>";
@@ -202,7 +212,6 @@
 				02A70C811D7CDE260065B6BD /* jump.wav in Resources */,
 				02A70C7D1D7CDE260065B6BD /* tileSet.png in Resources */,
 				02A70C7A1D7CDE260065B6BD /* level1.tmx in Resources */,
-				02A70C8C1D7CFD920065B6BD /* SKTUtils in Resources */,
 				02A70C7E1D7CDE260065B6BD /* tileSet@2x.png in Resources */,
 				02A70C5B1D7CD8D90065B6BD /* GameScene.sks in Resources */,
 				02A70C7C1D7CDE260065B6BD /* level1.mp3 in Resources */,
@@ -223,6 +232,9 @@
 			files = (
 				02A70C6F1D7CDCD00065B6BD /* Player.swift in Sources */,
 				02A70C901D7CFED60065B6BD /* JSTileMap.m in Sources */,
+				0295CDA11D7D37C100935C09 /* CGVector+Extensions.swift in Sources */,
+				0295CDA01D7D37C100935C09 /* CGPoint+Extensions.swift in Sources */,
+				0295CD9F1D7D37C100935C09 /* CGFloat+Extensions.swift in Sources */,
 				02A70C5D1D7CD8D90065B6BD /* GameScene.swift in Sources */,
 				02A70C5F1D7CD8D90065B6BD /* GameViewController.swift in Sources */,
 				02A70C911D7CFED60065B6BD /* LFCGzipUtility.m in Sources */,
@@ -346,8 +358,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CDRD.PformerV0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PformerV0-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PformerV0/PformerV0-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,7 +373,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CDRD.PformerV0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PformerV0-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PformerV0/PformerV0-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -383,6 +397,7 @@
 				02A70C6D1D7CD8D90065B6BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
